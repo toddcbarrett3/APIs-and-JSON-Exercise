@@ -1,10 +1,13 @@
-﻿namespace APIsAndJSON
+﻿using Microsoft.Extensions.Configuration;
+namespace APIsAndJSON
 {
     public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World");
+            //RonVSKanyeAPI.RonKanyeConversation();
+
+            OpenWeatherMapAPI.OpenWeatherMap();
         }
     }
 }
